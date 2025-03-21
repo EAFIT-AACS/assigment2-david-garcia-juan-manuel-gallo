@@ -10,17 +10,17 @@ S → aSb | ε
 
 It consists of three Python scripts:
 
-🔹**Algorithm 1:** Generates strings that belong or do not belong to the language.
+🔹 **Algorithm 1:** Generates strings that either belong or do not belong to the language.  
+🔹 **Algorithm 2:** Implements a PDA that validates the strings.  
+🔹 **Algorithm 3:** **Main Algorithm** – This script imports and executes both Algorithm 1 and Algorithm 2, and in addition, builds a derivation tree for accepted strings.
 
-🔹**Algorithm 2:** Implements a PDA that validates the strings.
-
-🔹**Algorithm 3:** Builds a derivation tree for accepted strings.
+*Note:* Although Algorithms 1 and 2 can be run individually to observe their respective functionalities, executing Algorithm 3 is sufficient to see the complete process in action.
 
 ## 📜 **Team** 
 
 🔹Juan Manuel Gallo López
 
-🔹David Garcia 
+🔹David Garcia Zapata
 
 🔹**Class code:** 7309
 
@@ -35,14 +35,21 @@ Ensure you have Python installed and then clone this repository:
  
  cd <repository-folder>
 
-2️⃣ Run the Algorithms in Order
+2️⃣ Run the Algorithms
 
-Execute the scripts in sequence:
+To run individual algorithms:
+If you want to test Algorithm 1 and Algorithm 2 separately, you can execute them individually:
 <pre>
 python algorithm_1.py
 python algorithm_2.py
+</pre>
+
+To run the complete integrated process:
+Execute Algorithm 3, which imports and runs Algorithms 1 and 2, and also displays the derivation tree:
+<pre>
 python algorithm_3.py
 </pre>
+**Important**: When running Algorithm 3, a pop-up window displaying the derivation tree will appear. To view the different trees, close the current window and the next tree window will automatically open.
 
 ## 📂 **File Structure**
 <pre>
