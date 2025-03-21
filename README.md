@@ -66,8 +66,11 @@ python algorithm_3.py
 ### 🎯 **Algorithm 1 (String Generation)**
 <pre>
 Generated Strings:
-🔹 Accepted: 'aabb', 'aaabbb'
-🔹 Rejected: 'ab', 'aabbbb'
+🔹 ab
+🔹 aaabbb
+🔹 aaab
+🔹 bb
+ 
 </pre>
 
 ### 🎯 Algorithm 2 (PDA Validation)
