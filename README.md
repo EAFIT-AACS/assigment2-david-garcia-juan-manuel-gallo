@@ -14,7 +14,7 @@ It consists of three Python scripts:
 🔹 **Algorithm 2:** Implements a PDA that validates the strings.  
 🔹 **Algorithm 3:** **Main Algorithm** – This script imports and executes both Algorithm 1 and Algorithm 2, and in addition, builds a derivation tree for accepted strings.
 
-*Note:* Although Algorithms 1 and 2 can be run individually to observe their respective functionalities, executing Algorithm 3 is sufficient to see the complete process in action.
+**Note:** Although Algorithms 1 and 2 can be run individually to observe their respective functionalities, executing Algorithm 3 is sufficient to see the complete process in action.
 
 ## 📜 **Team** 
 
@@ -49,7 +49,7 @@ Execute Algorithm 3, which imports and runs Algorithms 1 and 2, and also display
 <pre>
 python algorithm_3.py
 </pre>
-**Important**: When running Algorithm 3, a pop-up window displaying the derivation tree will appear. To view the different trees, close the current window and the next tree window will automatically open.
+⚠️**Important:** When running Algorithm 3, a pop-up window displaying the derivation tree will appear. To view the different trees, close the current window and the next tree window will automatically open.
 
 ## 📂 **File Structure**
 <pre>
