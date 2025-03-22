@@ -90,14 +90,14 @@ La cadena 'aab' ❌ is rejected by the PDA.
 
 ### 🎯 Algorithm 3 (Derivation Tree)
 <pre>
- Árbol de derivación para 'ab':
+ Derivation tree for 'ab':
 
-        S
-       / \
-      a   b
+            S
+           / \
+          a   b
 </pre>
 <pre>
- Árbol de derivación para 'aabbb':
+  Derivation tree for 'aabbb':
 
              S
            / | \
