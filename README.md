@@ -82,10 +82,10 @@ Generated Strings:
 
 ### 🎯 Algorithm 2 (PDA Validation)
 <pre>
-La cadena 'ab' ✅ is accepted by the PDA.
-La cadena 'aabb' ✅ is accepted by the PDA.
-La cadena 'babb' ❌ is rejected by the PDA.
-La cadena 'aab' ❌ is rejected by the PDA.
+The string 'ab' ✅ is accepted by the PDA.
+The string 'aabb' ✅ is accepted by the PDA.
+The string 'babb' ❌ is rejected by the PDA.
+The string 'aab' ❌ is rejected by the PDA.
 </pre>
 
 ### 🎯 Algorithm 3 (Derivation Tree)
